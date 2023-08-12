@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ureport>
+    <cell expand="Down" name="A1" row="1" col="1">
+        <cell-style font-size="10" font-family="宋体" wrap-compute="true" align="left" valign="middle"></cell-style>
+        <dataset-value dataset-name="ass" aggregate="group" property="id" order="none"
+                       mapping-type="simple"></dataset-value>
+    </cell>
+    <cell expand="Down" name="B1" row="1" col="2" default-left-cell="A1"
+          link-url="${#=='xujs'?'https://www.baidu.com':'https://www.qq.com/search.htm?query=gpt&page=0'}"
+          link-target-window="_blank">
+        <cell-style font-size="10" font-family="宋体" wrap-compute="true" align="left" valign="middle"></cell-style>
+        <dataset-value dataset-name="ass" aggregate="group" property="name" order="none"
+                       mapping-type="simple"></dataset-value>
+    </cell>
+    <cell expand="None" name="C1" row="1" col="3" default-left-cell="B1"  link-url="${#=='xujs'?'xixi':'haha'}">
+        <cell-style font-size="10" font-family="宋体" wrap-compute="true" align="left" valign="middle"></cell-style>
+        <simple-value><![CDATA[]]></simple-value>
+    </cell>
+    <cell expand="None" name="A2" row="2" col="1" default-top-cell="A1">
+        <cell-style font-size="10" font-family="宋体" wrap-compute="true" align="left" valign="middle"></cell-style>
+        <simple-value><![CDATA[]]></simple-value>
+    </cell>
+    <cell expand="None" name="B2" row="2" col="2" default-left-cell="A2" default-top-cell="B1">
+        <cell-style font-size="10" font-family="宋体" wrap-compute="true" align="left" valign="middle"></cell-style>
+        <simple-value><![CDATA[]]></simple-value>
+    </cell>
+    <cell expand="None" name="C2" row="2" col="3" default-left-cell="B2" default-top-cell="C1">
+        <cell-style font-size="10" font-family="宋体" wrap-compute="true" align="left" valign="middle"></cell-style>
+        <simple-value><![CDATA[]]></simple-value>
+    </cell>
+    <row row-number="1" height="18"/>
+    <row row-number="2" height="18"/>
+    <column col-number="1" width="80"/>
+    <column col-number="2" width="80"/>
+    <column col-number="3" width="80"/>
+    <datasource code="88929fe0e63a439c8266da1c97e4d583" name="NetvineBI" type="jdbc">
+        <dataset name="ass" type="sql">
+            <sql><![CDATA[SELECT table01.* FROM table01]]></sql>
+            <field name="id"/>
+            <field name="time"/>
+            <field name="name"/>
+            <field name="ip"/>
+            <field name="module"/>
+            <field name="detail"/>
+            <field name="level"/>
+            <field name="description"/>
+        </dataset>
+    </datasource>
+    <paper type="A4" left-margin="90" right-margin="90" top-margin="72" bottom-margin="72" page-enabled="false"
+           paging-mode="fitpage" fixrows="0" width="595" height="842" orientation="portrait" html-report-align="left"
+           bg-image="" print="false" html-interval-refresh-value="0" column-enabled="false"></paper>
+</ureport>
