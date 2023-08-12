@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Java-Study
+server:
+  port: 9001
+  address: 0.0.0.0
