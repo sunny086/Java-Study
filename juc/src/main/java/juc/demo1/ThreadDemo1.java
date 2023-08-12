@@ -1,4 +1,4 @@
-package juc.demo;
+package juc.demo1;
 
 /**
  * Created with IntelliJ IDEA.
