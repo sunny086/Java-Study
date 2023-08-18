@@ -1,0 +1,3607 @@
+{
+	"version": "1.0.0-RC.1",
+	"columns": {
+		"wind.xbgtest.id": {
+			"name": "wind.xbgtest.id",
+			"type": "STRING",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "id"]
+		},
+		"wind.xbgtest.Date_and_time": {
+			"name": "wind.xbgtest.Date_and_time",
+			"type": "DATE",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Date_and_time"]
+		},
+		"wind.xbgtest.Wind_speed_m_s": {
+			"name": "wind.xbgtest.Wind_speed_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_StdDev_m_s": {
+			"name": "wind.xbgtest.Wind_speed_StdDev_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_StdDev_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Min_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Min_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Min_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Max_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Max_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Max_m_s"]
+		},
+		"wind.xbgtest.Long_Term_Wind_m_s": {
+			"name": "wind.xbgtest.Long_Term_Wind_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Long_Term_Wind_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_1_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_1_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_1_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_1_StdDev_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_1_StdDev_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_1_StdDev_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_1_Min_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_1_Min_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_1_Min_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_1_Max_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_1_Max_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_1_Max_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_2_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_2_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_2_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_2_StdDev_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_2_StdDev_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_2_StdDev_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_2_Min_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_2_Min_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_2_Min_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_2_Max_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_2_Max_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_2_Max_m_s"]
+		},
+		"wind.xbgtest.Density_adjusted_wind_speed_m_s": {
+			"name": "wind.xbgtest.Density_adjusted_wind_speed_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Density_adjusted_wind_speed_m_s"]
+		},
+		"wind.xbgtest.Wind_direction_deg": {
+			"name": "wind.xbgtest.Wind_direction_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_direction_deg"]
+		},
+		"wind.xbgtest.Nacelle_position_deg": {
+			"name": "wind.xbgtest.Nacelle_position_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_position_deg"]
+		},
+		"wind.xbgtest.Wind_direction_StdDev_deg": {
+			"name": "wind.xbgtest.Wind_direction_StdDev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_direction_StdDev_deg"]
+		},
+		"wind.xbgtest.Wind_direction_Min_deg": {
+			"name": "wind.xbgtest.Wind_direction_Min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_direction_Min_deg"]
+		},
+		"wind.xbgtest.Wind_direction_Max_deg": {
+			"name": "wind.xbgtest.Wind_direction_Max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_direction_Max_deg"]
+		},
+		"wind.xbgtest.Nacelle_position_StdDev_deg": {
+			"name": "wind.xbgtest.Nacelle_position_StdDev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_position_StdDev_deg"]
+		},
+		"wind.xbgtest.Nacelle_position_Min_deg": {
+			"name": "wind.xbgtest.Nacelle_position_Min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_position_Min_deg"]
+		},
+		"wind.xbgtest.Nacelle_position_Max_deg": {
+			"name": "wind.xbgtest.Nacelle_position_Max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_position_Max_deg"]
+		},
+		"wind.xbgtest.Vane_position_1_2_deg": {
+			"name": "wind.xbgtest.Vane_position_1_2_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Vane_position_1_2_deg"]
+		},
+		"wind.xbgtest.Vane_position_1_2_Max_deg": {
+			"name": "wind.xbgtest.Vane_position_1_2_Max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Vane_position_1_2_Max_deg"]
+		},
+		"wind.xbgtest.Vane_position_1_2_Min_deg": {
+			"name": "wind.xbgtest.Vane_position_1_2_Min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Vane_position_1_2_Min_deg"]
+		},
+		"wind.xbgtest.Vane_position_1_2_StdDev_deg": {
+			"name": "wind.xbgtest.Vane_position_1_2_StdDev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Vane_position_1_2_StdDev_deg"]
+		},
+		"wind.xbgtest.Energy_Export_kWh": {
+			"name": "wind.xbgtest.Energy_Export_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Export_kWh"]
+		},
+		"wind.xbgtest.Energy_Export_counter_kWh": {
+			"name": "wind.xbgtest.Energy_Export_counter_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Export_counter_kWh"]
+		},
+		"wind.xbgtest.Energy_Import_kWh": {
+			"name": "wind.xbgtest.Energy_Import_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Import_kWh"]
+		},
+		"wind.xbgtest.Energy_Import_counter_kWh": {
+			"name": "wind.xbgtest.Energy_Import_counter_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Import_counter_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Contractual_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Contractual_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Contractual_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Time_based_IEC_B_2_2_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Time_based_IEC_B_2_2_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Time_based_IEC_B_2_2_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Time_based_IEC_B_2_3_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Time_based_IEC_B_2_3_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Time_based_IEC_B_2_3_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Time_based_IEC_B_2_4_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Time_based_IEC_B_2_4_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Time_based_IEC_B_2_4_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Time_based_IEC_B_3_2_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Time_based_IEC_B_3_2_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Time_based_IEC_B_3_2_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Production_based_IEC_B_2_2_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Production_based_IEC_B_2_2_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Production_based_IEC_B_2_2_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Production_based_IEC_B_2_3_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Production_based_IEC_B_2_3_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Production_based_IEC_B_2_3_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Production_based_IEC_B_3_2_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Production_based_IEC_B_3_2_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Production_based_IEC_B_3_2_kWh"]
+		},
+		"wind.xbgtest.Energy_Budget_Default_kWh": {
+			"name": "wind.xbgtest.Energy_Budget_Default_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Budget_Default_kWh"]
+		},
+		"wind.xbgtest.Energy_Theoretical_kWh": {
+			"name": "wind.xbgtest.Energy_Theoretical_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Theoretical_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Downtime_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Downtime_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Downtime_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Performance_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Performance_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Performance_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Total_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Total_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Total_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Total_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Total_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Total_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Grid_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Grid_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Grid_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Noise_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Noise_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Noise_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Shadow_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Shadow_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Shadow_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Bats_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Bats_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Bats_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Birds_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Birds_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Birds_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Ice_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Ice_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Ice_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Sector_Management_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Sector_Management_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Sector_Management_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Technical_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Technical_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Technical_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Marketing_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Marketing_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Marketing_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Boat_Action_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Boat_Action_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Boat_Action_kWh"]
+		},
+		"wind.xbgtest.Compensated_Lost_Production_kWh": {
+			"name": "wind.xbgtest.Compensated_Lost_Production_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Compensated_Lost_Production_kWh"]
+		},
+		"wind.xbgtest.Virtual_Production_kWh": {
+			"name": "wind.xbgtest.Virtual_Production_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Virtual_Production_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Grid_Constraint_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Grid_Constraint_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Grid_Constraint_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Downtime_and_Curtailment_Total_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Downtime_and_Curtailment_Total_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Downtime_and_Curtailment_Total_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Contractual_Global_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Contractual_Global_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Contractual_Global_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Contractual_Custom_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Contractual_Custom_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Contractual_Custom_kWh"]
+		},
+		"wind.xbgtest.Power_kW": {
+			"name": "wind.xbgtest.Power_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_kW"]
+		},
+		"wind.xbgtest.Potential_power_default_PC_kW": {
+			"name": "wind.xbgtest.Potential_power_default_PC_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_default_PC_kW"]
+		},
+		"wind.xbgtest.Power_StdDev_kW": {
+			"name": "wind.xbgtest.Power_StdDev_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_StdDev_kW"]
+		},
+		"wind.xbgtest.Power_Min_kW": {
+			"name": "wind.xbgtest.Power_Min_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_Min_kW"]
+		},
+		"wind.xbgtest.Power_Max_kW": {
+			"name": "wind.xbgtest.Power_Max_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_Max_kW"]
+		},
+		"wind.xbgtest.Potential_power_learned_PC_kW": {
+			"name": "wind.xbgtest.Potential_power_learned_PC_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_learned_PC_kW"]
+		},
+		"wind.xbgtest.Potential_power_reference_turbines_kW": {
+			"name": "wind.xbgtest.Potential_power_reference_turbines_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_reference_turbines_kW"]
+		},
+		"wind.xbgtest.Cascading_potential_power_kW": {
+			"name": "wind.xbgtest.Cascading_potential_power_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Cascading_potential_power_kW"]
+		},
+		"wind.xbgtest.Cascading_potential_power_for_performance_kW": {
+			"name": "wind.xbgtest.Cascading_potential_power_for_performance_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Cascading_potential_power_for_performance_kW"]
+		},
+		"wind.xbgtest.Potential_power_met_mast_anemometer_kW": {
+			"name": "wind.xbgtest.Potential_power_met_mast_anemometer_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_met_mast_anemometer_kW"]
+		},
+		"wind.xbgtest.Potential_power_primary_reference_turbines_kW": {
+			"name": "wind.xbgtest.Potential_power_primary_reference_turbines_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_primary_reference_turbines_kW"]
+		},
+		"wind.xbgtest.Potential_power_secondary_reference_turbines_kW": {
+			"name": "wind.xbgtest.Potential_power_secondary_reference_turbines_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_secondary_reference_turbines_kW"]
+		},
+		"wind.xbgtest.Turbine_Power_setpoint_kW": {
+			"name": "wind.xbgtest.Turbine_Power_setpoint_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Turbine_Power_setpoint_kW"]
+		},
+		"wind.xbgtest.Potential_power_estimated_kW": {
+			"name": "wind.xbgtest.Potential_power_estimated_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_estimated_kW"]
+		},
+		"wind.xbgtest.Potential_power_MPC_kW": {
+			"name": "wind.xbgtest.Potential_power_MPC_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_MPC_kW"]
+		},
+		"wind.xbgtest.Potential_power_met_mast_anemometer_MPC_kW": {
+			"name": "wind.xbgtest.Potential_power_met_mast_anemometer_MPC_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_met_mast_anemometer_MPC_kW"]
+		},
+		"wind.xbgtest.Turbine_Power_setpoint_Max_kW": {
+			"name": "wind.xbgtest.Turbine_Power_setpoint_Max_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Turbine_Power_setpoint_Max_kW"]
+		},
+		"wind.xbgtest.Turbine_Power_setpoint_Min_kW": {
+			"name": "wind.xbgtest.Turbine_Power_setpoint_Min_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Turbine_Power_setpoint_Min_kW"]
+		},
+		"wind.xbgtest.Turbine_Power_setpoint_StdDev_kW": {
+			"name": "wind.xbgtest.Turbine_Power_setpoint_StdDev_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Turbine_Power_setpoint_StdDev_kW"]
+		},
+		"wind.xbgtest.Available_Capacity_for_Production_kW": {
+			"name": "wind.xbgtest.Available_Capacity_for_Production_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Available_Capacity_for_Production_kW"]
+		},
+		"wind.xbgtest.Available_Capacity_for_Production_Planned_kW": {
+			"name": "wind.xbgtest.Available_Capacity_for_Production_Planned_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Available_Capacity_for_Production_Planned_kW"]
+		},
+		"wind.xbgtest.Power_factor_cosphi": {
+			"name": "wind.xbgtest.Power_factor_cosphi",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_factor_cosphi"]
+		},
+		"wind.xbgtest.Power_factor_cosphi_Max": {
+			"name": "wind.xbgtest.Power_factor_cosphi_Max",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_factor_cosphi_Max"]
+		},
+		"wind.xbgtest.Power_factor_cosphi_Min": {
+			"name": "wind.xbgtest.Power_factor_cosphi_Min",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_factor_cosphi_Min"]
+		},
+		"wind.xbgtest.Power_factor_cosphi_StdDev": {
+			"name": "wind.xbgtest.Power_factor_cosphi_StdDev",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_factor_cosphi_StdDev"]
+		},
+		"wind.xbgtest.Reactive_power_kvar": {
+			"name": "wind.xbgtest.Reactive_power_kvar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Reactive_power_kvar"]
+		},
+		"wind.xbgtest.Reactive_power_Max_kvar": {
+			"name": "wind.xbgtest.Reactive_power_Max_kvar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Reactive_power_Max_kvar"]
+		},
+		"wind.xbgtest.Reactive_power_Min_kvar": {
+			"name": "wind.xbgtest.Reactive_power_Min_kvar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Reactive_power_Min_kvar"]
+		},
+		"wind.xbgtest.Reactive_power_StdDev_kvar": {
+			"name": "wind.xbgtest.Reactive_power_StdDev_kvar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Reactive_power_StdDev_kvar"]
+		},
+		"wind.xbgtest.Front_bearing_temperature_C": {
+			"name": "wind.xbgtest.Front_bearing_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Front_bearing_temperature_C"]
+		},
+		"wind.xbgtest.Rear_bearing_temperature_C": {
+			"name": "wind.xbgtest.Rear_bearing_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rear_bearing_temperature_C"]
+		},
+		"wind.xbgtest.Stator_temperature_1_C": {
+			"name": "wind.xbgtest.Stator_temperature_1_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Stator_temperature_1_C"]
+		},
+		"wind.xbgtest.Nacelle_ambient_temperature_C": {
+			"name": "wind.xbgtest.Nacelle_ambient_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_ambient_temperature_C"]
+		},
+		"wind.xbgtest.Nacelle_temperature_C": {
+			"name": "wind.xbgtest.Nacelle_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_temperature_C"]
+		},
+		"wind.xbgtest.Transformer_temperature_C": {
+			"name": "wind.xbgtest.Transformer_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_temperature_C"]
+		},
+		"wind.xbgtest.Gear_oil_inlet_temperature_C": {
+			"name": "wind.xbgtest.Gear_oil_inlet_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_inlet_temperature_C"]
+		},
+		"wind.xbgtest.Generator_bearing_rear_temperature_C": {
+			"name": "wind.xbgtest.Generator_bearing_rear_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_rear_temperature_C"]
+		},
+		"wind.xbgtest.Generator_bearing_front_temperature_C": {
+			"name": "wind.xbgtest.Generator_bearing_front_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_front_temperature_C"]
+		},
+		"wind.xbgtest.Gear_oil_temperature_C": {
+			"name": "wind.xbgtest.Gear_oil_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_temperature_C"]
+		},
+		"wind.xbgtest.Temp_top_box_C": {
+			"name": "wind.xbgtest.Temp_top_box_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temp_top_box_C"]
+		},
+		"wind.xbgtest.Hub_temperature_C": {
+			"name": "wind.xbgtest.Hub_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Hub_temperature_C"]
+		},
+		"wind.xbgtest.Ambient_temperature_converter_C": {
+			"name": "wind.xbgtest.Ambient_temperature_converter_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Ambient_temperature_converter_C"]
+		},
+		"wind.xbgtest.Rotor_bearing_temp_C": {
+			"name": "wind.xbgtest.Rotor_bearing_temp_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rotor_bearing_temp_C"]
+		},
+		"wind.xbgtest.Transformer_cell_temperature_C": {
+			"name": "wind.xbgtest.Transformer_cell_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_cell_temperature_C"]
+		},
+		"wind.xbgtest.Front_bearing_temperature_Max_C": {
+			"name": "wind.xbgtest.Front_bearing_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Front_bearing_temperature_Max_C"]
+		},
+		"wind.xbgtest.Front_bearing_temperature_Min_C": {
+			"name": "wind.xbgtest.Front_bearing_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Front_bearing_temperature_Min_C"]
+		},
+		"wind.xbgtest.Front_bearing_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Front_bearing_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Front_bearing_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Rear_bearing_temperature_Max_C": {
+			"name": "wind.xbgtest.Rear_bearing_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rear_bearing_temperature_Max_C"]
+		},
+		"wind.xbgtest.Rear_bearing_temperature_Min_C": {
+			"name": "wind.xbgtest.Rear_bearing_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rear_bearing_temperature_Min_C"]
+		},
+		"wind.xbgtest.Rear_bearing_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Rear_bearing_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rear_bearing_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_1_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_1_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_1_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_2_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_2_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_2_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_3_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_3_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_3_C"]
+		},
+		"wind.xbgtest.CPU_temperature_C": {
+			"name": "wind.xbgtest.CPU_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "CPU_temperature_C"]
+		},
+		"wind.xbgtest.Nacelle_temperature_Max_C": {
+			"name": "wind.xbgtest.Nacelle_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_temperature_Max_C"]
+		},
+		"wind.xbgtest.Nacelle_temperature_Min_C": {
+			"name": "wind.xbgtest.Nacelle_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_temperature_Min_C"]
+		},
+		"wind.xbgtest.Generator_bearing_front_temperature_Max_C": {
+			"name": "wind.xbgtest.Generator_bearing_front_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_front_temperature_Max_C"]
+		},
+		"wind.xbgtest.Generator_bearing_front_temperature_Min_C": {
+			"name": "wind.xbgtest.Generator_bearing_front_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_front_temperature_Min_C"]
+		},
+		"wind.xbgtest.Generator_bearing_rear_temperature_Max_C": {
+			"name": "wind.xbgtest.Generator_bearing_rear_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_rear_temperature_Max_C"]
+		},
+		"wind.xbgtest.Generator_bearing_rear_temperature_Min_C": {
+			"name": "wind.xbgtest.Generator_bearing_rear_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_rear_temperature_Min_C"]
+		},
+		"wind.xbgtest.Generator_bearing_front_temperature_Std_C": {
+			"name": "wind.xbgtest.Generator_bearing_front_temperature_Std_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_front_temperature_Std_C"]
+		},
+		"wind.xbgtest.Generator_bearing_rear_temperature_Std_C": {
+			"name": "wind.xbgtest.Generator_bearing_rear_temperature_Std_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_rear_temperature_Std_C"]
+		},
+		"wind.xbgtest.Nacelle_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Nacelle_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Gear_oil_temperature_Max_C": {
+			"name": "wind.xbgtest.Gear_oil_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_temperature_Max_C"]
+		},
+		"wind.xbgtest.Gear_oil_temperature_Min_C": {
+			"name": "wind.xbgtest.Gear_oil_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_temperature_Min_C"]
+		},
+		"wind.xbgtest.Gear_oil_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Gear_oil_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Hub_temperature_min_C": {
+			"name": "wind.xbgtest.Hub_temperature_min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Hub_temperature_min_C"]
+		},
+		"wind.xbgtest.Hub_temperature_max_C": {
+			"name": "wind.xbgtest.Hub_temperature_max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Hub_temperature_max_C"]
+		},
+		"wind.xbgtest.Hub_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Hub_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Hub_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Ambient_temperature_converter_Max_C": {
+			"name": "wind.xbgtest.Ambient_temperature_converter_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Ambient_temperature_converter_Max_C"]
+		},
+		"wind.xbgtest.Ambient_temperature_converter_Min_C": {
+			"name": "wind.xbgtest.Ambient_temperature_converter_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Ambient_temperature_converter_Min_C"]
+		},
+		"wind.xbgtest.Ambient_temperature_converter_StdDev_C": {
+			"name": "wind.xbgtest.Ambient_temperature_converter_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Ambient_temperature_converter_StdDev_C"]
+		},
+		"wind.xbgtest.Gear_oil_inlet_temperature_Max_C": {
+			"name": "wind.xbgtest.Gear_oil_inlet_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_inlet_temperature_Max_C"]
+		},
+		"wind.xbgtest.Gear_oil_inlet_temperature_Min_C": {
+			"name": "wind.xbgtest.Gear_oil_inlet_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_inlet_temperature_Min_C"]
+		},
+		"wind.xbgtest.Gear_oil_inlet_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Gear_oil_inlet_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_inlet_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Nacelle_ambient_temperature_Max_C": {
+			"name": "wind.xbgtest.Nacelle_ambient_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_ambient_temperature_Max_C"]
+		},
+		"wind.xbgtest.Nacelle_ambient_temperature_Min_C": {
+			"name": "wind.xbgtest.Nacelle_ambient_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_ambient_temperature_Min_C"]
+		},
+		"wind.xbgtest.Nacelle_ambient_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Nacelle_ambient_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_ambient_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Rotor_bearing_temp_Max_C": {
+			"name": "wind.xbgtest.Rotor_bearing_temp_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rotor_bearing_temp_Max_C"]
+		},
+		"wind.xbgtest.Rotor_bearing_temp_Min_C": {
+			"name": "wind.xbgtest.Rotor_bearing_temp_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rotor_bearing_temp_Min_C"]
+		},
+		"wind.xbgtest.Rotor_bearing_temp_StdDev_C": {
+			"name": "wind.xbgtest.Rotor_bearing_temp_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rotor_bearing_temp_StdDev_C"]
+		},
+		"wind.xbgtest.CPU_temperature_Max_C": {
+			"name": "wind.xbgtest.CPU_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "CPU_temperature_Max_C"]
+		},
+		"wind.xbgtest.CPU_temperature_Min_C": {
+			"name": "wind.xbgtest.CPU_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "CPU_temperature_Min_C"]
+		},
+		"wind.xbgtest.CPU_temperature_StdDev_C": {
+			"name": "wind.xbgtest.CPU_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "CPU_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Transformer_cell_temperature_Max_C": {
+			"name": "wind.xbgtest.Transformer_cell_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_cell_temperature_Max_C"]
+		},
+		"wind.xbgtest.Transformer_cell_temperature_Min_C": {
+			"name": "wind.xbgtest.Transformer_cell_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_cell_temperature_Min_C"]
+		},
+		"wind.xbgtest.Transformer_cell_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Transformer_cell_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_cell_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Transformer_temperature_Max_C": {
+			"name": "wind.xbgtest.Transformer_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_temperature_Max_C"]
+		},
+		"wind.xbgtest.Transformer_temperature_Min_C": {
+			"name": "wind.xbgtest.Transformer_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_temperature_Min_C"]
+		},
+		"wind.xbgtest.Transformer_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Transformer_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Stator_temperature_1_Max_C": {
+			"name": "wind.xbgtest.Stator_temperature_1_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Stator_temperature_1_Max_C"]
+		},
+		"wind.xbgtest.Stator_temperature_1_Min_C": {
+			"name": "wind.xbgtest.Stator_temperature_1_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Stator_temperature_1_Min_C"]
+		},
+		"wind.xbgtest.Stator_temperature_1_StdDev_C": {
+			"name": "wind.xbgtest.Stator_temperature_1_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Stator_temperature_1_StdDev_C"]
+		},
+		"wind.xbgtest.Temp_top_box_Max_C": {
+			"name": "wind.xbgtest.Temp_top_box_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temp_top_box_Max_C"]
+		},
+		"wind.xbgtest.Temp_top_box_Min_C": {
+			"name": "wind.xbgtest.Temp_top_box_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temp_top_box_Min_C"]
+		},
+		"wind.xbgtest.Temp_top_box_StdDev_C": {
+			"name": "wind.xbgtest.Temp_top_box_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temp_top_box_StdDev_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_1_Max_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_1_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_1_Max_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_1_Min_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_1_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_1_Min_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_1_StdDev_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_1_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_1_StdDev_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_2_Max_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_2_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_2_Max_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_2_Min_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_2_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_2_Min_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_2_StdDev_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_2_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_2_StdDev_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_3_Max_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_3_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_3_Max_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_3_Min_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_3_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_3_Min_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_3_StdDev_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_3_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_3_StdDev_C"]
+		},
+		"wind.xbgtest.voltage_l1_u_v": {
+			"name": "wind.xbgtest.voltage_l1_u_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l1_u_v"]
+		},
+		"wind.xbgtest.voltage_l2_v_v": {
+			"name": "wind.xbgtest.voltage_l2_v_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l2_v_v"]
+		},
+		"wind.xbgtest.voltage_l3_w_v": {
+			"name": "wind.xbgtest.voltage_l3_w_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l3_w_v"]
+		},
+		"wind.xbgtest.grid_voltage_v": {
+			"name": "wind.xbgtest.grid_voltage_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_voltage_v"]
+		},
+		"wind.xbgtest.grid_voltage_max_v": {
+			"name": "wind.xbgtest.grid_voltage_max_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_voltage_max_v"]
+		},
+		"wind.xbgtest.grid_voltage_min_v": {
+			"name": "wind.xbgtest.grid_voltage_min_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_voltage_min_v"]
+		},
+		"wind.xbgtest.grid_voltage_stddev_v": {
+			"name": "wind.xbgtest.grid_voltage_stddev_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_voltage_stddev_v"]
+		},
+		"wind.xbgtest.voltage_l1_u_min_v": {
+			"name": "wind.xbgtest.voltage_l1_u_min_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l1_u_min_v"]
+		},
+		"wind.xbgtest.voltage_l1_u_max_v": {
+			"name": "wind.xbgtest.voltage_l1_u_max_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l1_u_max_v"]
+		},
+		"wind.xbgtest.voltage_l1_u_stddev_v": {
+			"name": "wind.xbgtest.voltage_l1_u_stddev_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l1_u_stddev_v"]
+		},
+		"wind.xbgtest.voltage_l2_v_min_v": {
+			"name": "wind.xbgtest.voltage_l2_v_min_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l2_v_min_v"]
+		},
+		"wind.xbgtest.voltage_l2_v_max_v": {
+			"name": "wind.xbgtest.voltage_l2_v_max_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l2_v_max_v"]
+		},
+		"wind.xbgtest.voltage_l2_v_stddev_v": {
+			"name": "wind.xbgtest.voltage_l2_v_stddev_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l2_v_stddev_v"]
+		},
+		"wind.xbgtest.voltage_l3_w_min_v": {
+			"name": "wind.xbgtest.voltage_l3_w_min_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l3_w_min_v"]
+		},
+		"wind.xbgtest.voltage_l3_w_max_v": {
+			"name": "wind.xbgtest.voltage_l3_w_max_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l3_w_max_v"]
+		},
+		"wind.xbgtest.voltage_l3_w_stddev_v": {
+			"name": "wind.xbgtest.voltage_l3_w_stddev_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l3_w_stddev_v"]
+		},
+		"wind.xbgtest.current_l1_u_a": {
+			"name": "wind.xbgtest.current_l1_u_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l1_u_a"]
+		},
+		"wind.xbgtest.current_l2_v_a": {
+			"name": "wind.xbgtest.current_l2_v_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l2_v_a"]
+		},
+		"wind.xbgtest.current_l3_w_a": {
+			"name": "wind.xbgtest.current_l3_w_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l3_w_a"]
+		},
+		"wind.xbgtest.grid_current_a": {
+			"name": "wind.xbgtest.grid_current_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_current_a"]
+		},
+		"wind.xbgtest.motor_current_axis_1_a": {
+			"name": "wind.xbgtest.motor_current_axis_1_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_1_a"]
+		},
+		"wind.xbgtest.motor_current_axis_2_a": {
+			"name": "wind.xbgtest.motor_current_axis_2_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_2_a"]
+		},
+		"wind.xbgtest.motor_current_axis_3_a": {
+			"name": "wind.xbgtest.motor_current_axis_3_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_3_a"]
+		},
+		"wind.xbgtest.current_l1_u_min_a": {
+			"name": "wind.xbgtest.current_l1_u_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l1_u_min_a"]
+		},
+		"wind.xbgtest.current_l1_u_max_a": {
+			"name": "wind.xbgtest.current_l1_u_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l1_u_max_a"]
+		},
+		"wind.xbgtest.current_l1_u_stddev_a": {
+			"name": "wind.xbgtest.current_l1_u_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l1_u_stddev_a"]
+		},
+		"wind.xbgtest.current_l2_v_max_a": {
+			"name": "wind.xbgtest.current_l2_v_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l2_v_max_a"]
+		},
+		"wind.xbgtest.current_l3_w_max_a": {
+			"name": "wind.xbgtest.current_l3_w_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l3_w_max_a"]
+		},
+		"wind.xbgtest.current_l2_v_min_a": {
+			"name": "wind.xbgtest.current_l2_v_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l2_v_min_a"]
+		},
+		"wind.xbgtest.current_l2_v_stddev_a": {
+			"name": "wind.xbgtest.current_l2_v_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l2_v_stddev_a"]
+		},
+		"wind.xbgtest.current_l3_w_min_a": {
+			"name": "wind.xbgtest.current_l3_w_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l3_w_min_a"]
+		},
+		"wind.xbgtest.current_l3_w_stddev_a": {
+			"name": "wind.xbgtest.current_l3_w_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l3_w_stddev_a"]
+		},
+		"wind.xbgtest.grid_current_max_a": {
+			"name": "wind.xbgtest.grid_current_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_current_max_a"]
+		},
+		"wind.xbgtest.grid_current_min_a": {
+			"name": "wind.xbgtest.grid_current_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_current_min_a"]
+		},
+		"wind.xbgtest.grid_current_stddev_a": {
+			"name": "wind.xbgtest.grid_current_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_current_stddev_a"]
+		},
+		"wind.xbgtest.motor_current_axis_1_max_a": {
+			"name": "wind.xbgtest.motor_current_axis_1_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_1_max_a"]
+		},
+		"wind.xbgtest.motor_current_axis_1_min_a": {
+			"name": "wind.xbgtest.motor_current_axis_1_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_1_min_a"]
+		},
+		"wind.xbgtest.motor_current_axis_1_stddev_a": {
+			"name": "wind.xbgtest.motor_current_axis_1_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_1_stddev_a"]
+		},
+		"wind.xbgtest.motor_current_axis_2_max_a": {
+			"name": "wind.xbgtest.motor_current_axis_2_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_2_max_a"]
+		},
+		"wind.xbgtest.motor_current_axis_2_min_a": {
+			"name": "wind.xbgtest.motor_current_axis_2_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_2_min_a"]
+		},
+		"wind.xbgtest.motor_current_axis_2_stddev_a": {
+			"name": "wind.xbgtest.motor_current_axis_2_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_2_stddev_a"]
+		},
+		"wind.xbgtest.motor_current_axis_3_max_a": {
+			"name": "wind.xbgtest.motor_current_axis_3_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_3_max_a"]
+		},
+		"wind.xbgtest.motor_current_axis_3_min_a": {
+			"name": "wind.xbgtest.motor_current_axis_3_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_3_min_a"]
+		},
+		"wind.xbgtest.motor_current_axis_3_stddev_a": {
+			"name": "wind.xbgtest.motor_current_axis_3_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_3_stddev_a"]
+		},
+		"wind.xbgtest.rotor_speed_rpm": {
+			"name": "wind.xbgtest.rotor_speed_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "rotor_speed_rpm"]
+		},
+		"wind.xbgtest.generator_rpm_rpm": {
+			"name": "wind.xbgtest.generator_rpm_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "generator_rpm_rpm"]
+		},
+		"wind.xbgtest.gearbox_speed_rpm": {
+			"name": "wind.xbgtest.gearbox_speed_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gearbox_speed_rpm"]
+		},
+		"wind.xbgtest.generator_rpm_max_rpm": {
+			"name": "wind.xbgtest.generator_rpm_max_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "generator_rpm_max_rpm"]
+		},
+		"wind.xbgtest.generator_rpm_min_rpm": {
+			"name": "wind.xbgtest.generator_rpm_min_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "generator_rpm_min_rpm"]
+		},
+		"wind.xbgtest.generator_rpm_stddev_rpm": {
+			"name": "wind.xbgtest.generator_rpm_stddev_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "generator_rpm_stddev_rpm"]
+		},
+		"wind.xbgtest.rotor_speed_max_rpm": {
+			"name": "wind.xbgtest.rotor_speed_max_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "rotor_speed_max_rpm"]
+		},
+		"wind.xbgtest.rotor_speed_min_rpm": {
+			"name": "wind.xbgtest.rotor_speed_min_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "rotor_speed_min_rpm"]
+		},
+		"wind.xbgtest.rotor_speed_stddev_rpm": {
+			"name": "wind.xbgtest.rotor_speed_stddev_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "rotor_speed_stddev_rpm"]
+		},
+		"wind.xbgtest.gearbox_speed_max_rpm": {
+			"name": "wind.xbgtest.gearbox_speed_max_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gearbox_speed_max_rpm"]
+		},
+		"wind.xbgtest.gearbox_speed_min_rpm": {
+			"name": "wind.xbgtest.gearbox_speed_min_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gearbox_speed_min_rpm"]
+		},
+		"wind.xbgtest.gearbox_speed_stddev_rpm": {
+			"name": "wind.xbgtest.gearbox_speed_stddev_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gearbox_speed_stddev_rpm"]
+		},
+		"wind.xbgtest.capacity_factor": {
+			"name": "wind.xbgtest.capacity_factor",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "capacity_factor"]
+		},
+		"wind.xbgtest.data_availability": {
+			"name": "wind.xbgtest.data_availability",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "data_availability"]
+		},
+		"wind.xbgtest.time_based_contractual_avail": {
+			"name": "wind.xbgtest.time_based_contractual_avail",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_contractual_avail"]
+		},
+		"wind.xbgtest.time_based_iec_b_2_2_users_view": {
+			"name": "wind.xbgtest.time_based_iec_b_2_2_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_iec_b_2_2_users_view"]
+		},
+		"wind.xbgtest.time_based_iec_b_2_3_users_view": {
+			"name": "wind.xbgtest.time_based_iec_b_2_3_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_iec_b_2_3_users_view"]
+		},
+		"wind.xbgtest.time_based_iec_b_2_4_users_view": {
+			"name": "wind.xbgtest.time_based_iec_b_2_4_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_iec_b_2_4_users_view"]
+		},
+		"wind.xbgtest.time_based_iec_b_3_2_manufacturers_view": {
+			"name": "wind.xbgtest.time_based_iec_b_3_2_manufacturers_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_iec_b_3_2_manufacturers_view"]
+		},
+		"wind.xbgtest.production_based_iec_b_2_2_users_view": {
+			"name": "wind.xbgtest.production_based_iec_b_2_2_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_iec_b_2_2_users_view"]
+		},
+		"wind.xbgtest.production_based_iec_b_2_3_users_view": {
+			"name": "wind.xbgtest.production_based_iec_b_2_3_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_iec_b_2_3_users_view"]
+		},
+		"wind.xbgtest.production_based_iec_b_3_2_manufacturers_view": {
+			"name": "wind.xbgtest.production_based_iec_b_3_2_manufacturers_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_iec_b_3_2_manufacturers_view"]
+		},
+		"wind.xbgtest.time_based_system_avail": {
+			"name": "wind.xbgtest.time_based_system_avail",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_system_avail"]
+		},
+		"wind.xbgtest.production_based_system_avail": {
+			"name": "wind.xbgtest.production_based_system_avail",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_system_avail"]
+		},
+		"wind.xbgtest.production_based_contractual_avail": {
+			"name": "wind.xbgtest.production_based_contractual_avail",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_contractual_avail"]
+		},
+		"wind.xbgtest.time_based_system_avail_planned": {
+			"name": "wind.xbgtest.time_based_system_avail_planned",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_system_avail_planned"]
+		},
+		"wind.xbgtest.production_based_system_avail_virtual": {
+			"name": "wind.xbgtest.production_based_system_avail_virtual",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_system_avail_virtual"]
+		},
+		"wind.xbgtest.time_based_contractual_avail_global": {
+			"name": "wind.xbgtest.time_based_contractual_avail_global",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_contractual_avail_global"]
+		},
+		"wind.xbgtest.time_based_contractual_avail_custom": {
+			"name": "wind.xbgtest.time_based_contractual_avail_custom",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_contractual_avail_custom"]
+		},
+		"wind.xbgtest.production_based_contractual_avail_global": {
+			"name": "wind.xbgtest.production_based_contractual_avail_global",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_contractual_avail_global"]
+		},
+		"wind.xbgtest.production_based_contractual_avail_custom": {
+			"name": "wind.xbgtest.production_based_contractual_avail_custom",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_contractual_avail_custom"]
+		},
+		"wind.xbgtest.reactive_energy_export_kvarh": {
+			"name": "wind.xbgtest.reactive_energy_export_kvarh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "reactive_energy_export_kvarh"]
+		},
+		"wind.xbgtest.reactive_energy_export_counter_kvarh": {
+			"name": "wind.xbgtest.reactive_energy_export_counter_kvarh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "reactive_energy_export_counter_kvarh"]
+		},
+		"wind.xbgtest.reactive_energy_import_kvarh": {
+			"name": "wind.xbgtest.reactive_energy_import_kvarh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "reactive_energy_import_kvarh"]
+		},
+		"wind.xbgtest.reactive_energy_import_counter_kvarh": {
+			"name": "wind.xbgtest.reactive_energy_import_counter_kvarh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "reactive_energy_import_counter_kvarh"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_a_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_a_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_a_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_b_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_b_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_b_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_c_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_c_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_c_deg"]
+		},
+		"wind.xbgtest.yaw_bearing_angle_deg": {
+			"name": "wind.xbgtest.yaw_bearing_angle_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "yaw_bearing_angle_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_a_max_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_a_max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_a_max_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_a_min_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_a_min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_a_min_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_a_stddev_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_a_stddev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_a_stddev_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_b_max_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_b_max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_b_max_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_b_min_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_b_min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_b_min_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_b_stddev_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_b_stddev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_b_stddev_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_c_max_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_c_max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_c_max_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_c_min_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_c_min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_c_min_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_c_stddev_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_c_stddev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_c_stddev_deg"]
+		},
+		"wind.xbgtest.yaw_bearing_angle_max_deg": {
+			"name": "wind.xbgtest.yaw_bearing_angle_max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "yaw_bearing_angle_max_deg"]
+		},
+		"wind.xbgtest.yaw_bearing_angle_min_deg": {
+			"name": "wind.xbgtest.yaw_bearing_angle_min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "yaw_bearing_angle_min_deg"]
+		},
+		"wind.xbgtest.yaw_bearing_angle_stddev_deg": {
+			"name": "wind.xbgtest.yaw_bearing_angle_stddev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "yaw_bearing_angle_stddev_deg"]
+		},
+		"wind.xbgtest.gear_oil_inlet_pressure_bar": {
+			"name": "wind.xbgtest.gear_oil_inlet_pressure_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_inlet_pressure_bar"]
+		},
+		"wind.xbgtest.gear_oil_pump_pressure_bar": {
+			"name": "wind.xbgtest.gear_oil_pump_pressure_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_pump_pressure_bar"]
+		},
+		"wind.xbgtest.gear_oil_inlet_pressure_max_bar": {
+			"name": "wind.xbgtest.gear_oil_inlet_pressure_max_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_inlet_pressure_max_bar"]
+		},
+		"wind.xbgtest.gear_oil_inlet_pressure_min_bar": {
+			"name": "wind.xbgtest.gear_oil_inlet_pressure_min_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_inlet_pressure_min_bar"]
+		},
+		"wind.xbgtest.gear_oil_inlet_pressure_stddev_bar": {
+			"name": "wind.xbgtest.gear_oil_inlet_pressure_stddev_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_inlet_pressure_stddev_bar"]
+		},
+		"wind.xbgtest.gear_oil_pump_pressure_max_bar": {
+			"name": "wind.xbgtest.gear_oil_pump_pressure_max_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_pump_pressure_max_bar"]
+		},
+		"wind.xbgtest.gear_oil_pump_pressure_min_bar": {
+			"name": "wind.xbgtest.gear_oil_pump_pressure_min_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_pump_pressure_min_bar"]
+		},
+		"wind.xbgtest.gear_oil_pump_pressure_stddev_bar": {
+			"name": "wind.xbgtest.gear_oil_pump_pressure_stddev_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_pump_pressure_stddev_bar"]
+		},
+		"wind.xbgtest.grid_frequency_hz": {
+			"name": "wind.xbgtest.grid_frequency_hz",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_frequency_hz"]
+		},
+		"wind.xbgtest.grid_frequency_max_hz": {
+			"name": "wind.xbgtest.grid_frequency_max_hz",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_frequency_max_hz"]
+		},
+		"wind.xbgtest.grid_frequency_min_hz": {
+			"name": "wind.xbgtest.grid_frequency_min_hz",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_frequency_min_hz"]
+		},
+		"wind.xbgtest.grid_frequency_stddev_hz": {
+			"name": "wind.xbgtest.grid_frequency_stddev_hz",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_frequency_stddev_hz"]
+		},
+		"wind.xbgtest.equivalent_full_load_hours_s": {
+			"name": "wind.xbgtest.equivalent_full_load_hours_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "equivalent_full_load_hours_s"]
+		},
+		"wind.xbgtest.equivalent_full_load_hours_counter_s": {
+			"name": "wind.xbgtest.equivalent_full_load_hours_counter_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "equivalent_full_load_hours_counter_s"]
+		},
+		"wind.xbgtest.production_factor": {
+			"name": "wind.xbgtest.production_factor",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_factor"]
+		},
+		"wind.xbgtest.performance_index": {
+			"name": "wind.xbgtest.performance_index",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "performance_index"]
+		},
+		"wind.xbgtest.apparent_power_kva": {
+			"name": "wind.xbgtest.apparent_power_kva",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "apparent_power_kva"]
+		},
+		"wind.xbgtest.apparent_power_max_kva": {
+			"name": "wind.xbgtest.apparent_power_max_kva",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "apparent_power_max_kva"]
+		},
+		"wind.xbgtest.apparent_power_min_kva": {
+			"name": "wind.xbgtest.apparent_power_min_kva",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "apparent_power_min_kva"]
+		},
+		"wind.xbgtest.apparent_power_stddev_kva": {
+			"name": "wind.xbgtest.apparent_power_stddev_kva",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "apparent_power_stddev_kva"]
+		},
+		"wind.xbgtest.cable_windings_calibration_point": {
+			"name": "wind.xbgtest.cable_windings_calibration_point",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "cable_windings_calibration_point"]
+		},
+		"wind.xbgtest.metal_particle_count": {
+			"name": "wind.xbgtest.metal_particle_count",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "metal_particle_count"]
+		},
+		"wind.xbgtest.metal_particle_count_counter": {
+			"name": "wind.xbgtest.metal_particle_count_counter",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "metal_particle_count_counter"]
+		},
+		"wind.xbgtest.cable_windings_calibration_point_max": {
+			"name": "wind.xbgtest.cable_windings_calibration_point_max",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "cable_windings_calibration_point_max"]
+		},
+		"wind.xbgtest.cable_windings_calibration_point_min": {
+			"name": "wind.xbgtest.cable_windings_calibration_point_min",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "cable_windings_calibration_point_min"]
+		},
+		"wind.xbgtest.cable_windings_calibration_point_stddev": {
+			"name": "wind.xbgtest.cable_windings_calibration_point_stddev",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "cable_windings_calibration_point_stddev"]
+		},
+		"wind.xbgtest.drive_train_acceleration_mm_ss": {
+			"name": "wind.xbgtest.drive_train_acceleration_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "drive_train_acceleration_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_x_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_x_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_x_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_y_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_y_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_y_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_x_min_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_x_min_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_x_min_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_x_max_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_x_max_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_x_max_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_y_min_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_y_min_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_y_min_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_y_max_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_y_max_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_y_max_mm_ss"]
+		},
+		"wind.xbgtest.drive_train_acceleration_max_mm_ss": {
+			"name": "wind.xbgtest.drive_train_acceleration_max_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "drive_train_acceleration_max_mm_ss"]
+		},
+		"wind.xbgtest.drive_train_acceleration_min_mm_ss": {
+			"name": "wind.xbgtest.drive_train_acceleration_min_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "drive_train_acceleration_min_mm_ss"]
+		},
+		"wind.xbgtest.drive_train_acceleration_stddev_mm_ss": {
+			"name": "wind.xbgtest.drive_train_acceleration_stddev_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "drive_train_acceleration_stddev_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_x_stddev_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_x_stddev_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_x_stddev_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_y_stddev_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_y_stddev_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_y_stddev_mm_ss"]
+		}
+	},
+	"hierarchy": {
+		"wind.xbgtest.id": {
+			"name": "wind.xbgtest.id",
+			"type": "STRING",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "id"]
+		},
+		"wind.xbgtest.Date_and_time": {
+			"name": "wind.xbgtest.Date_and_time",
+			"type": "DATE",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Date_and_time"]
+		},
+		"wind.xbgtest.Wind_speed_m_s": {
+			"name": "wind.xbgtest.Wind_speed_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_StdDev_m_s": {
+			"name": "wind.xbgtest.Wind_speed_StdDev_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_StdDev_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Min_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Min_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Min_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Max_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Max_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Max_m_s"]
+		},
+		"wind.xbgtest.Long_Term_Wind_m_s": {
+			"name": "wind.xbgtest.Long_Term_Wind_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Long_Term_Wind_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_1_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_1_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_1_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_1_StdDev_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_1_StdDev_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_1_StdDev_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_1_Min_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_1_Min_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_1_Min_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_1_Max_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_1_Max_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_1_Max_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_2_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_2_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_2_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_2_StdDev_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_2_StdDev_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_2_StdDev_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_2_Min_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_2_Min_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_2_Min_m_s"]
+		},
+		"wind.xbgtest.Wind_speed_Sensor_2_Max_m_s": {
+			"name": "wind.xbgtest.Wind_speed_Sensor_2_Max_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_speed_Sensor_2_Max_m_s"]
+		},
+		"wind.xbgtest.Density_adjusted_wind_speed_m_s": {
+			"name": "wind.xbgtest.Density_adjusted_wind_speed_m_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Density_adjusted_wind_speed_m_s"]
+		},
+		"wind.xbgtest.Wind_direction_deg": {
+			"name": "wind.xbgtest.Wind_direction_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_direction_deg"]
+		},
+		"wind.xbgtest.Nacelle_position_deg": {
+			"name": "wind.xbgtest.Nacelle_position_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_position_deg"]
+		},
+		"wind.xbgtest.Wind_direction_StdDev_deg": {
+			"name": "wind.xbgtest.Wind_direction_StdDev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_direction_StdDev_deg"]
+		},
+		"wind.xbgtest.Wind_direction_Min_deg": {
+			"name": "wind.xbgtest.Wind_direction_Min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_direction_Min_deg"]
+		},
+		"wind.xbgtest.Wind_direction_Max_deg": {
+			"name": "wind.xbgtest.Wind_direction_Max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Wind_direction_Max_deg"]
+		},
+		"wind.xbgtest.Nacelle_position_StdDev_deg": {
+			"name": "wind.xbgtest.Nacelle_position_StdDev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_position_StdDev_deg"]
+		},
+		"wind.xbgtest.Nacelle_position_Min_deg": {
+			"name": "wind.xbgtest.Nacelle_position_Min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_position_Min_deg"]
+		},
+		"wind.xbgtest.Nacelle_position_Max_deg": {
+			"name": "wind.xbgtest.Nacelle_position_Max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_position_Max_deg"]
+		},
+		"wind.xbgtest.Vane_position_1_2_deg": {
+			"name": "wind.xbgtest.Vane_position_1_2_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Vane_position_1_2_deg"]
+		},
+		"wind.xbgtest.Vane_position_1_2_Max_deg": {
+			"name": "wind.xbgtest.Vane_position_1_2_Max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Vane_position_1_2_Max_deg"]
+		},
+		"wind.xbgtest.Vane_position_1_2_Min_deg": {
+			"name": "wind.xbgtest.Vane_position_1_2_Min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Vane_position_1_2_Min_deg"]
+		},
+		"wind.xbgtest.Vane_position_1_2_StdDev_deg": {
+			"name": "wind.xbgtest.Vane_position_1_2_StdDev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Vane_position_1_2_StdDev_deg"]
+		},
+		"wind.xbgtest.Energy_Export_kWh": {
+			"name": "wind.xbgtest.Energy_Export_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Export_kWh"]
+		},
+		"wind.xbgtest.Energy_Export_counter_kWh": {
+			"name": "wind.xbgtest.Energy_Export_counter_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Export_counter_kWh"]
+		},
+		"wind.xbgtest.Energy_Import_kWh": {
+			"name": "wind.xbgtest.Energy_Import_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Import_kWh"]
+		},
+		"wind.xbgtest.Energy_Import_counter_kWh": {
+			"name": "wind.xbgtest.Energy_Import_counter_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Import_counter_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Contractual_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Contractual_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Contractual_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Time_based_IEC_B_2_2_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Time_based_IEC_B_2_2_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Time_based_IEC_B_2_2_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Time_based_IEC_B_2_3_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Time_based_IEC_B_2_3_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Time_based_IEC_B_2_3_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Time_based_IEC_B_2_4_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Time_based_IEC_B_2_4_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Time_based_IEC_B_2_4_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Time_based_IEC_B_3_2_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Time_based_IEC_B_3_2_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Time_based_IEC_B_3_2_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Production_based_IEC_B_2_2_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Production_based_IEC_B_2_2_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Production_based_IEC_B_2_2_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Production_based_IEC_B_2_3_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Production_based_IEC_B_2_3_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Production_based_IEC_B_2_3_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Production_based_IEC_B_3_2_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Production_based_IEC_B_3_2_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Production_based_IEC_B_3_2_kWh"]
+		},
+		"wind.xbgtest.Energy_Budget_Default_kWh": {
+			"name": "wind.xbgtest.Energy_Budget_Default_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Budget_Default_kWh"]
+		},
+		"wind.xbgtest.Energy_Theoretical_kWh": {
+			"name": "wind.xbgtest.Energy_Theoretical_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Energy_Theoretical_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Downtime_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Downtime_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Downtime_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Performance_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Performance_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Performance_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Total_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Total_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Total_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Total_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Total_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Total_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Grid_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Grid_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Grid_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Noise_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Noise_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Noise_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Shadow_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Shadow_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Shadow_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Bats_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Bats_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Bats_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Birds_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Birds_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Birds_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Ice_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Ice_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Ice_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Sector_Management_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Sector_Management_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Sector_Management_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Technical_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Technical_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Technical_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Marketing_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Marketing_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Marketing_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Boat_Action_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Boat_Action_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Boat_Action_kWh"]
+		},
+		"wind.xbgtest.Compensated_Lost_Production_kWh": {
+			"name": "wind.xbgtest.Compensated_Lost_Production_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Compensated_Lost_Production_kWh"]
+		},
+		"wind.xbgtest.Virtual_Production_kWh": {
+			"name": "wind.xbgtest.Virtual_Production_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Virtual_Production_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Curtailment_Grid_Constraint_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Curtailment_Grid_Constraint_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Curtailment_Grid_Constraint_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_to_Downtime_and_Curtailment_Total_kWh": {
+			"name": "wind.xbgtest.Lost_Production_to_Downtime_and_Curtailment_Total_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_to_Downtime_and_Curtailment_Total_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Contractual_Global_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Contractual_Global_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Contractual_Global_kWh"]
+		},
+		"wind.xbgtest.Lost_Production_Contractual_Custom_kWh": {
+			"name": "wind.xbgtest.Lost_Production_Contractual_Custom_kWh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Lost_Production_Contractual_Custom_kWh"]
+		},
+		"wind.xbgtest.Power_kW": {
+			"name": "wind.xbgtest.Power_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_kW"]
+		},
+		"wind.xbgtest.Potential_power_default_PC_kW": {
+			"name": "wind.xbgtest.Potential_power_default_PC_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_default_PC_kW"]
+		},
+		"wind.xbgtest.Power_StdDev_kW": {
+			"name": "wind.xbgtest.Power_StdDev_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_StdDev_kW"]
+		},
+		"wind.xbgtest.Power_Min_kW": {
+			"name": "wind.xbgtest.Power_Min_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_Min_kW"]
+		},
+		"wind.xbgtest.Power_Max_kW": {
+			"name": "wind.xbgtest.Power_Max_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_Max_kW"]
+		},
+		"wind.xbgtest.Potential_power_learned_PC_kW": {
+			"name": "wind.xbgtest.Potential_power_learned_PC_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_learned_PC_kW"]
+		},
+		"wind.xbgtest.Potential_power_reference_turbines_kW": {
+			"name": "wind.xbgtest.Potential_power_reference_turbines_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_reference_turbines_kW"]
+		},
+		"wind.xbgtest.Cascading_potential_power_kW": {
+			"name": "wind.xbgtest.Cascading_potential_power_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Cascading_potential_power_kW"]
+		},
+		"wind.xbgtest.Cascading_potential_power_for_performance_kW": {
+			"name": "wind.xbgtest.Cascading_potential_power_for_performance_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Cascading_potential_power_for_performance_kW"]
+		},
+		"wind.xbgtest.Potential_power_met_mast_anemometer_kW": {
+			"name": "wind.xbgtest.Potential_power_met_mast_anemometer_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_met_mast_anemometer_kW"]
+		},
+		"wind.xbgtest.Potential_power_primary_reference_turbines_kW": {
+			"name": "wind.xbgtest.Potential_power_primary_reference_turbines_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_primary_reference_turbines_kW"]
+		},
+		"wind.xbgtest.Potential_power_secondary_reference_turbines_kW": {
+			"name": "wind.xbgtest.Potential_power_secondary_reference_turbines_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_secondary_reference_turbines_kW"]
+		},
+		"wind.xbgtest.Turbine_Power_setpoint_kW": {
+			"name": "wind.xbgtest.Turbine_Power_setpoint_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Turbine_Power_setpoint_kW"]
+		},
+		"wind.xbgtest.Potential_power_estimated_kW": {
+			"name": "wind.xbgtest.Potential_power_estimated_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_estimated_kW"]
+		},
+		"wind.xbgtest.Potential_power_MPC_kW": {
+			"name": "wind.xbgtest.Potential_power_MPC_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_MPC_kW"]
+		},
+		"wind.xbgtest.Potential_power_met_mast_anemometer_MPC_kW": {
+			"name": "wind.xbgtest.Potential_power_met_mast_anemometer_MPC_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Potential_power_met_mast_anemometer_MPC_kW"]
+		},
+		"wind.xbgtest.Turbine_Power_setpoint_Max_kW": {
+			"name": "wind.xbgtest.Turbine_Power_setpoint_Max_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Turbine_Power_setpoint_Max_kW"]
+		},
+		"wind.xbgtest.Turbine_Power_setpoint_Min_kW": {
+			"name": "wind.xbgtest.Turbine_Power_setpoint_Min_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Turbine_Power_setpoint_Min_kW"]
+		},
+		"wind.xbgtest.Turbine_Power_setpoint_StdDev_kW": {
+			"name": "wind.xbgtest.Turbine_Power_setpoint_StdDev_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Turbine_Power_setpoint_StdDev_kW"]
+		},
+		"wind.xbgtest.Available_Capacity_for_Production_kW": {
+			"name": "wind.xbgtest.Available_Capacity_for_Production_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Available_Capacity_for_Production_kW"]
+		},
+		"wind.xbgtest.Available_Capacity_for_Production_Planned_kW": {
+			"name": "wind.xbgtest.Available_Capacity_for_Production_Planned_kW",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Available_Capacity_for_Production_Planned_kW"]
+		},
+		"wind.xbgtest.Power_factor_cosphi": {
+			"name": "wind.xbgtest.Power_factor_cosphi",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_factor_cosphi"]
+		},
+		"wind.xbgtest.Power_factor_cosphi_Max": {
+			"name": "wind.xbgtest.Power_factor_cosphi_Max",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_factor_cosphi_Max"]
+		},
+		"wind.xbgtest.Power_factor_cosphi_Min": {
+			"name": "wind.xbgtest.Power_factor_cosphi_Min",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_factor_cosphi_Min"]
+		},
+		"wind.xbgtest.Power_factor_cosphi_StdDev": {
+			"name": "wind.xbgtest.Power_factor_cosphi_StdDev",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Power_factor_cosphi_StdDev"]
+		},
+		"wind.xbgtest.Reactive_power_kvar": {
+			"name": "wind.xbgtest.Reactive_power_kvar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Reactive_power_kvar"]
+		},
+		"wind.xbgtest.Reactive_power_Max_kvar": {
+			"name": "wind.xbgtest.Reactive_power_Max_kvar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Reactive_power_Max_kvar"]
+		},
+		"wind.xbgtest.Reactive_power_Min_kvar": {
+			"name": "wind.xbgtest.Reactive_power_Min_kvar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Reactive_power_Min_kvar"]
+		},
+		"wind.xbgtest.Reactive_power_StdDev_kvar": {
+			"name": "wind.xbgtest.Reactive_power_StdDev_kvar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Reactive_power_StdDev_kvar"]
+		},
+		"wind.xbgtest.Front_bearing_temperature_C": {
+			"name": "wind.xbgtest.Front_bearing_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Front_bearing_temperature_C"]
+		},
+		"wind.xbgtest.Rear_bearing_temperature_C": {
+			"name": "wind.xbgtest.Rear_bearing_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rear_bearing_temperature_C"]
+		},
+		"wind.xbgtest.Stator_temperature_1_C": {
+			"name": "wind.xbgtest.Stator_temperature_1_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Stator_temperature_1_C"]
+		},
+		"wind.xbgtest.Nacelle_ambient_temperature_C": {
+			"name": "wind.xbgtest.Nacelle_ambient_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_ambient_temperature_C"]
+		},
+		"wind.xbgtest.Nacelle_temperature_C": {
+			"name": "wind.xbgtest.Nacelle_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_temperature_C"]
+		},
+		"wind.xbgtest.Transformer_temperature_C": {
+			"name": "wind.xbgtest.Transformer_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_temperature_C"]
+		},
+		"wind.xbgtest.Gear_oil_inlet_temperature_C": {
+			"name": "wind.xbgtest.Gear_oil_inlet_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_inlet_temperature_C"]
+		},
+		"wind.xbgtest.Generator_bearing_rear_temperature_C": {
+			"name": "wind.xbgtest.Generator_bearing_rear_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_rear_temperature_C"]
+		},
+		"wind.xbgtest.Generator_bearing_front_temperature_C": {
+			"name": "wind.xbgtest.Generator_bearing_front_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_front_temperature_C"]
+		},
+		"wind.xbgtest.Gear_oil_temperature_C": {
+			"name": "wind.xbgtest.Gear_oil_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_temperature_C"]
+		},
+		"wind.xbgtest.Temp_top_box_C": {
+			"name": "wind.xbgtest.Temp_top_box_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temp_top_box_C"]
+		},
+		"wind.xbgtest.Hub_temperature_C": {
+			"name": "wind.xbgtest.Hub_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Hub_temperature_C"]
+		},
+		"wind.xbgtest.Ambient_temperature_converter_C": {
+			"name": "wind.xbgtest.Ambient_temperature_converter_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Ambient_temperature_converter_C"]
+		},
+		"wind.xbgtest.Rotor_bearing_temp_C": {
+			"name": "wind.xbgtest.Rotor_bearing_temp_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rotor_bearing_temp_C"]
+		},
+		"wind.xbgtest.Transformer_cell_temperature_C": {
+			"name": "wind.xbgtest.Transformer_cell_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_cell_temperature_C"]
+		},
+		"wind.xbgtest.Front_bearing_temperature_Max_C": {
+			"name": "wind.xbgtest.Front_bearing_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Front_bearing_temperature_Max_C"]
+		},
+		"wind.xbgtest.Front_bearing_temperature_Min_C": {
+			"name": "wind.xbgtest.Front_bearing_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Front_bearing_temperature_Min_C"]
+		},
+		"wind.xbgtest.Front_bearing_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Front_bearing_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Front_bearing_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Rear_bearing_temperature_Max_C": {
+			"name": "wind.xbgtest.Rear_bearing_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rear_bearing_temperature_Max_C"]
+		},
+		"wind.xbgtest.Rear_bearing_temperature_Min_C": {
+			"name": "wind.xbgtest.Rear_bearing_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rear_bearing_temperature_Min_C"]
+		},
+		"wind.xbgtest.Rear_bearing_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Rear_bearing_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rear_bearing_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_1_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_1_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_1_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_2_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_2_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_2_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_3_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_3_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_3_C"]
+		},
+		"wind.xbgtest.CPU_temperature_C": {
+			"name": "wind.xbgtest.CPU_temperature_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "CPU_temperature_C"]
+		},
+		"wind.xbgtest.Nacelle_temperature_Max_C": {
+			"name": "wind.xbgtest.Nacelle_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_temperature_Max_C"]
+		},
+		"wind.xbgtest.Nacelle_temperature_Min_C": {
+			"name": "wind.xbgtest.Nacelle_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_temperature_Min_C"]
+		},
+		"wind.xbgtest.Generator_bearing_front_temperature_Max_C": {
+			"name": "wind.xbgtest.Generator_bearing_front_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_front_temperature_Max_C"]
+		},
+		"wind.xbgtest.Generator_bearing_front_temperature_Min_C": {
+			"name": "wind.xbgtest.Generator_bearing_front_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_front_temperature_Min_C"]
+		},
+		"wind.xbgtest.Generator_bearing_rear_temperature_Max_C": {
+			"name": "wind.xbgtest.Generator_bearing_rear_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_rear_temperature_Max_C"]
+		},
+		"wind.xbgtest.Generator_bearing_rear_temperature_Min_C": {
+			"name": "wind.xbgtest.Generator_bearing_rear_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_rear_temperature_Min_C"]
+		},
+		"wind.xbgtest.Generator_bearing_front_temperature_Std_C": {
+			"name": "wind.xbgtest.Generator_bearing_front_temperature_Std_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_front_temperature_Std_C"]
+		},
+		"wind.xbgtest.Generator_bearing_rear_temperature_Std_C": {
+			"name": "wind.xbgtest.Generator_bearing_rear_temperature_Std_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Generator_bearing_rear_temperature_Std_C"]
+		},
+		"wind.xbgtest.Nacelle_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Nacelle_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Gear_oil_temperature_Max_C": {
+			"name": "wind.xbgtest.Gear_oil_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_temperature_Max_C"]
+		},
+		"wind.xbgtest.Gear_oil_temperature_Min_C": {
+			"name": "wind.xbgtest.Gear_oil_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_temperature_Min_C"]
+		},
+		"wind.xbgtest.Gear_oil_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Gear_oil_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Hub_temperature_min_C": {
+			"name": "wind.xbgtest.Hub_temperature_min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Hub_temperature_min_C"]
+		},
+		"wind.xbgtest.Hub_temperature_max_C": {
+			"name": "wind.xbgtest.Hub_temperature_max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Hub_temperature_max_C"]
+		},
+		"wind.xbgtest.Hub_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Hub_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Hub_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Ambient_temperature_converter_Max_C": {
+			"name": "wind.xbgtest.Ambient_temperature_converter_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Ambient_temperature_converter_Max_C"]
+		},
+		"wind.xbgtest.Ambient_temperature_converter_Min_C": {
+			"name": "wind.xbgtest.Ambient_temperature_converter_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Ambient_temperature_converter_Min_C"]
+		},
+		"wind.xbgtest.Ambient_temperature_converter_StdDev_C": {
+			"name": "wind.xbgtest.Ambient_temperature_converter_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Ambient_temperature_converter_StdDev_C"]
+		},
+		"wind.xbgtest.Gear_oil_inlet_temperature_Max_C": {
+			"name": "wind.xbgtest.Gear_oil_inlet_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_inlet_temperature_Max_C"]
+		},
+		"wind.xbgtest.Gear_oil_inlet_temperature_Min_C": {
+			"name": "wind.xbgtest.Gear_oil_inlet_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_inlet_temperature_Min_C"]
+		},
+		"wind.xbgtest.Gear_oil_inlet_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Gear_oil_inlet_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Gear_oil_inlet_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Nacelle_ambient_temperature_Max_C": {
+			"name": "wind.xbgtest.Nacelle_ambient_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_ambient_temperature_Max_C"]
+		},
+		"wind.xbgtest.Nacelle_ambient_temperature_Min_C": {
+			"name": "wind.xbgtest.Nacelle_ambient_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_ambient_temperature_Min_C"]
+		},
+		"wind.xbgtest.Nacelle_ambient_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Nacelle_ambient_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Nacelle_ambient_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Rotor_bearing_temp_Max_C": {
+			"name": "wind.xbgtest.Rotor_bearing_temp_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rotor_bearing_temp_Max_C"]
+		},
+		"wind.xbgtest.Rotor_bearing_temp_Min_C": {
+			"name": "wind.xbgtest.Rotor_bearing_temp_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rotor_bearing_temp_Min_C"]
+		},
+		"wind.xbgtest.Rotor_bearing_temp_StdDev_C": {
+			"name": "wind.xbgtest.Rotor_bearing_temp_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Rotor_bearing_temp_StdDev_C"]
+		},
+		"wind.xbgtest.CPU_temperature_Max_C": {
+			"name": "wind.xbgtest.CPU_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "CPU_temperature_Max_C"]
+		},
+		"wind.xbgtest.CPU_temperature_Min_C": {
+			"name": "wind.xbgtest.CPU_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "CPU_temperature_Min_C"]
+		},
+		"wind.xbgtest.CPU_temperature_StdDev_C": {
+			"name": "wind.xbgtest.CPU_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "CPU_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Transformer_cell_temperature_Max_C": {
+			"name": "wind.xbgtest.Transformer_cell_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_cell_temperature_Max_C"]
+		},
+		"wind.xbgtest.Transformer_cell_temperature_Min_C": {
+			"name": "wind.xbgtest.Transformer_cell_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_cell_temperature_Min_C"]
+		},
+		"wind.xbgtest.Transformer_cell_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Transformer_cell_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_cell_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Transformer_temperature_Max_C": {
+			"name": "wind.xbgtest.Transformer_temperature_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_temperature_Max_C"]
+		},
+		"wind.xbgtest.Transformer_temperature_Min_C": {
+			"name": "wind.xbgtest.Transformer_temperature_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_temperature_Min_C"]
+		},
+		"wind.xbgtest.Transformer_temperature_StdDev_C": {
+			"name": "wind.xbgtest.Transformer_temperature_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Transformer_temperature_StdDev_C"]
+		},
+		"wind.xbgtest.Stator_temperature_1_Max_C": {
+			"name": "wind.xbgtest.Stator_temperature_1_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Stator_temperature_1_Max_C"]
+		},
+		"wind.xbgtest.Stator_temperature_1_Min_C": {
+			"name": "wind.xbgtest.Stator_temperature_1_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Stator_temperature_1_Min_C"]
+		},
+		"wind.xbgtest.Stator_temperature_1_StdDev_C": {
+			"name": "wind.xbgtest.Stator_temperature_1_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Stator_temperature_1_StdDev_C"]
+		},
+		"wind.xbgtest.Temp_top_box_Max_C": {
+			"name": "wind.xbgtest.Temp_top_box_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temp_top_box_Max_C"]
+		},
+		"wind.xbgtest.Temp_top_box_Min_C": {
+			"name": "wind.xbgtest.Temp_top_box_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temp_top_box_Min_C"]
+		},
+		"wind.xbgtest.Temp_top_box_StdDev_C": {
+			"name": "wind.xbgtest.Temp_top_box_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temp_top_box_StdDev_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_1_Max_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_1_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_1_Max_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_1_Min_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_1_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_1_Min_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_1_StdDev_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_1_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_1_StdDev_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_2_Max_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_2_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_2_Max_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_2_Min_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_2_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_2_Min_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_2_StdDev_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_2_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_2_StdDev_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_3_Max_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_3_Max_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_3_Max_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_3_Min_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_3_Min_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_3_Min_C"]
+		},
+		"wind.xbgtest.Temperature_motor_axis_3_StdDev_C": {
+			"name": "wind.xbgtest.Temperature_motor_axis_3_StdDev_C",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "Temperature_motor_axis_3_StdDev_C"]
+		},
+		"wind.xbgtest.voltage_l1_u_v": {
+			"name": "wind.xbgtest.voltage_l1_u_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l1_u_v"]
+		},
+		"wind.xbgtest.voltage_l2_v_v": {
+			"name": "wind.xbgtest.voltage_l2_v_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l2_v_v"]
+		},
+		"wind.xbgtest.voltage_l3_w_v": {
+			"name": "wind.xbgtest.voltage_l3_w_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l3_w_v"]
+		},
+		"wind.xbgtest.grid_voltage_v": {
+			"name": "wind.xbgtest.grid_voltage_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_voltage_v"]
+		},
+		"wind.xbgtest.grid_voltage_max_v": {
+			"name": "wind.xbgtest.grid_voltage_max_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_voltage_max_v"]
+		},
+		"wind.xbgtest.grid_voltage_min_v": {
+			"name": "wind.xbgtest.grid_voltage_min_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_voltage_min_v"]
+		},
+		"wind.xbgtest.grid_voltage_stddev_v": {
+			"name": "wind.xbgtest.grid_voltage_stddev_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_voltage_stddev_v"]
+		},
+		"wind.xbgtest.voltage_l1_u_min_v": {
+			"name": "wind.xbgtest.voltage_l1_u_min_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l1_u_min_v"]
+		},
+		"wind.xbgtest.voltage_l1_u_max_v": {
+			"name": "wind.xbgtest.voltage_l1_u_max_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l1_u_max_v"]
+		},
+		"wind.xbgtest.voltage_l1_u_stddev_v": {
+			"name": "wind.xbgtest.voltage_l1_u_stddev_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l1_u_stddev_v"]
+		},
+		"wind.xbgtest.voltage_l2_v_min_v": {
+			"name": "wind.xbgtest.voltage_l2_v_min_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l2_v_min_v"]
+		},
+		"wind.xbgtest.voltage_l2_v_max_v": {
+			"name": "wind.xbgtest.voltage_l2_v_max_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l2_v_max_v"]
+		},
+		"wind.xbgtest.voltage_l2_v_stddev_v": {
+			"name": "wind.xbgtest.voltage_l2_v_stddev_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l2_v_stddev_v"]
+		},
+		"wind.xbgtest.voltage_l3_w_min_v": {
+			"name": "wind.xbgtest.voltage_l3_w_min_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l3_w_min_v"]
+		},
+		"wind.xbgtest.voltage_l3_w_max_v": {
+			"name": "wind.xbgtest.voltage_l3_w_max_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l3_w_max_v"]
+		},
+		"wind.xbgtest.voltage_l3_w_stddev_v": {
+			"name": "wind.xbgtest.voltage_l3_w_stddev_v",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "voltage_l3_w_stddev_v"]
+		},
+		"wind.xbgtest.current_l1_u_a": {
+			"name": "wind.xbgtest.current_l1_u_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l1_u_a"]
+		},
+		"wind.xbgtest.current_l2_v_a": {
+			"name": "wind.xbgtest.current_l2_v_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l2_v_a"]
+		},
+		"wind.xbgtest.current_l3_w_a": {
+			"name": "wind.xbgtest.current_l3_w_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l3_w_a"]
+		},
+		"wind.xbgtest.grid_current_a": {
+			"name": "wind.xbgtest.grid_current_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_current_a"]
+		},
+		"wind.xbgtest.motor_current_axis_1_a": {
+			"name": "wind.xbgtest.motor_current_axis_1_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_1_a"]
+		},
+		"wind.xbgtest.motor_current_axis_2_a": {
+			"name": "wind.xbgtest.motor_current_axis_2_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_2_a"]
+		},
+		"wind.xbgtest.motor_current_axis_3_a": {
+			"name": "wind.xbgtest.motor_current_axis_3_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_3_a"]
+		},
+		"wind.xbgtest.current_l1_u_min_a": {
+			"name": "wind.xbgtest.current_l1_u_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l1_u_min_a"]
+		},
+		"wind.xbgtest.current_l1_u_max_a": {
+			"name": "wind.xbgtest.current_l1_u_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l1_u_max_a"]
+		},
+		"wind.xbgtest.current_l1_u_stddev_a": {
+			"name": "wind.xbgtest.current_l1_u_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l1_u_stddev_a"]
+		},
+		"wind.xbgtest.current_l2_v_max_a": {
+			"name": "wind.xbgtest.current_l2_v_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l2_v_max_a"]
+		},
+		"wind.xbgtest.current_l3_w_max_a": {
+			"name": "wind.xbgtest.current_l3_w_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l3_w_max_a"]
+		},
+		"wind.xbgtest.current_l2_v_min_a": {
+			"name": "wind.xbgtest.current_l2_v_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l2_v_min_a"]
+		},
+		"wind.xbgtest.current_l2_v_stddev_a": {
+			"name": "wind.xbgtest.current_l2_v_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l2_v_stddev_a"]
+		},
+		"wind.xbgtest.current_l3_w_min_a": {
+			"name": "wind.xbgtest.current_l3_w_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l3_w_min_a"]
+		},
+		"wind.xbgtest.current_l3_w_stddev_a": {
+			"name": "wind.xbgtest.current_l3_w_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "current_l3_w_stddev_a"]
+		},
+		"wind.xbgtest.grid_current_max_a": {
+			"name": "wind.xbgtest.grid_current_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_current_max_a"]
+		},
+		"wind.xbgtest.grid_current_min_a": {
+			"name": "wind.xbgtest.grid_current_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_current_min_a"]
+		},
+		"wind.xbgtest.grid_current_stddev_a": {
+			"name": "wind.xbgtest.grid_current_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_current_stddev_a"]
+		},
+		"wind.xbgtest.motor_current_axis_1_max_a": {
+			"name": "wind.xbgtest.motor_current_axis_1_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_1_max_a"]
+		},
+		"wind.xbgtest.motor_current_axis_1_min_a": {
+			"name": "wind.xbgtest.motor_current_axis_1_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_1_min_a"]
+		},
+		"wind.xbgtest.motor_current_axis_1_stddev_a": {
+			"name": "wind.xbgtest.motor_current_axis_1_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_1_stddev_a"]
+		},
+		"wind.xbgtest.motor_current_axis_2_max_a": {
+			"name": "wind.xbgtest.motor_current_axis_2_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_2_max_a"]
+		},
+		"wind.xbgtest.motor_current_axis_2_min_a": {
+			"name": "wind.xbgtest.motor_current_axis_2_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_2_min_a"]
+		},
+		"wind.xbgtest.motor_current_axis_2_stddev_a": {
+			"name": "wind.xbgtest.motor_current_axis_2_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_2_stddev_a"]
+		},
+		"wind.xbgtest.motor_current_axis_3_max_a": {
+			"name": "wind.xbgtest.motor_current_axis_3_max_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_3_max_a"]
+		},
+		"wind.xbgtest.motor_current_axis_3_min_a": {
+			"name": "wind.xbgtest.motor_current_axis_3_min_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_3_min_a"]
+		},
+		"wind.xbgtest.motor_current_axis_3_stddev_a": {
+			"name": "wind.xbgtest.motor_current_axis_3_stddev_a",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "motor_current_axis_3_stddev_a"]
+		},
+		"wind.xbgtest.rotor_speed_rpm": {
+			"name": "wind.xbgtest.rotor_speed_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "rotor_speed_rpm"]
+		},
+		"wind.xbgtest.generator_rpm_rpm": {
+			"name": "wind.xbgtest.generator_rpm_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "generator_rpm_rpm"]
+		},
+		"wind.xbgtest.gearbox_speed_rpm": {
+			"name": "wind.xbgtest.gearbox_speed_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gearbox_speed_rpm"]
+		},
+		"wind.xbgtest.generator_rpm_max_rpm": {
+			"name": "wind.xbgtest.generator_rpm_max_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "generator_rpm_max_rpm"]
+		},
+		"wind.xbgtest.generator_rpm_min_rpm": {
+			"name": "wind.xbgtest.generator_rpm_min_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "generator_rpm_min_rpm"]
+		},
+		"wind.xbgtest.generator_rpm_stddev_rpm": {
+			"name": "wind.xbgtest.generator_rpm_stddev_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "generator_rpm_stddev_rpm"]
+		},
+		"wind.xbgtest.rotor_speed_max_rpm": {
+			"name": "wind.xbgtest.rotor_speed_max_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "rotor_speed_max_rpm"]
+		},
+		"wind.xbgtest.rotor_speed_min_rpm": {
+			"name": "wind.xbgtest.rotor_speed_min_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "rotor_speed_min_rpm"]
+		},
+		"wind.xbgtest.rotor_speed_stddev_rpm": {
+			"name": "wind.xbgtest.rotor_speed_stddev_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "rotor_speed_stddev_rpm"]
+		},
+		"wind.xbgtest.gearbox_speed_max_rpm": {
+			"name": "wind.xbgtest.gearbox_speed_max_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gearbox_speed_max_rpm"]
+		},
+		"wind.xbgtest.gearbox_speed_min_rpm": {
+			"name": "wind.xbgtest.gearbox_speed_min_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gearbox_speed_min_rpm"]
+		},
+		"wind.xbgtest.gearbox_speed_stddev_rpm": {
+			"name": "wind.xbgtest.gearbox_speed_stddev_rpm",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gearbox_speed_stddev_rpm"]
+		},
+		"wind.xbgtest.capacity_factor": {
+			"name": "wind.xbgtest.capacity_factor",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "capacity_factor"]
+		},
+		"wind.xbgtest.data_availability": {
+			"name": "wind.xbgtest.data_availability",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "data_availability"]
+		},
+		"wind.xbgtest.time_based_contractual_avail": {
+			"name": "wind.xbgtest.time_based_contractual_avail",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_contractual_avail"]
+		},
+		"wind.xbgtest.time_based_iec_b_2_2_users_view": {
+			"name": "wind.xbgtest.time_based_iec_b_2_2_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_iec_b_2_2_users_view"]
+		},
+		"wind.xbgtest.time_based_iec_b_2_3_users_view": {
+			"name": "wind.xbgtest.time_based_iec_b_2_3_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_iec_b_2_3_users_view"]
+		},
+		"wind.xbgtest.time_based_iec_b_2_4_users_view": {
+			"name": "wind.xbgtest.time_based_iec_b_2_4_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_iec_b_2_4_users_view"]
+		},
+		"wind.xbgtest.time_based_iec_b_3_2_manufacturers_view": {
+			"name": "wind.xbgtest.time_based_iec_b_3_2_manufacturers_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_iec_b_3_2_manufacturers_view"]
+		},
+		"wind.xbgtest.production_based_iec_b_2_2_users_view": {
+			"name": "wind.xbgtest.production_based_iec_b_2_2_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_iec_b_2_2_users_view"]
+		},
+		"wind.xbgtest.production_based_iec_b_2_3_users_view": {
+			"name": "wind.xbgtest.production_based_iec_b_2_3_users_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_iec_b_2_3_users_view"]
+		},
+		"wind.xbgtest.production_based_iec_b_3_2_manufacturers_view": {
+			"name": "wind.xbgtest.production_based_iec_b_3_2_manufacturers_view",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_iec_b_3_2_manufacturers_view"]
+		},
+		"wind.xbgtest.time_based_system_avail": {
+			"name": "wind.xbgtest.time_based_system_avail",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_system_avail"]
+		},
+		"wind.xbgtest.production_based_system_avail": {
+			"name": "wind.xbgtest.production_based_system_avail",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_system_avail"]
+		},
+		"wind.xbgtest.production_based_contractual_avail": {
+			"name": "wind.xbgtest.production_based_contractual_avail",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_contractual_avail"]
+		},
+		"wind.xbgtest.time_based_system_avail_planned": {
+			"name": "wind.xbgtest.time_based_system_avail_planned",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_system_avail_planned"]
+		},
+		"wind.xbgtest.production_based_system_avail_virtual": {
+			"name": "wind.xbgtest.production_based_system_avail_virtual",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_system_avail_virtual"]
+		},
+		"wind.xbgtest.time_based_contractual_avail_global": {
+			"name": "wind.xbgtest.time_based_contractual_avail_global",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_contractual_avail_global"]
+		},
+		"wind.xbgtest.time_based_contractual_avail_custom": {
+			"name": "wind.xbgtest.time_based_contractual_avail_custom",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "time_based_contractual_avail_custom"]
+		},
+		"wind.xbgtest.production_based_contractual_avail_global": {
+			"name": "wind.xbgtest.production_based_contractual_avail_global",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_contractual_avail_global"]
+		},
+		"wind.xbgtest.production_based_contractual_avail_custom": {
+			"name": "wind.xbgtest.production_based_contractual_avail_custom",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_based_contractual_avail_custom"]
+		},
+		"wind.xbgtest.reactive_energy_export_kvarh": {
+			"name": "wind.xbgtest.reactive_energy_export_kvarh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "reactive_energy_export_kvarh"]
+		},
+		"wind.xbgtest.reactive_energy_export_counter_kvarh": {
+			"name": "wind.xbgtest.reactive_energy_export_counter_kvarh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "reactive_energy_export_counter_kvarh"]
+		},
+		"wind.xbgtest.reactive_energy_import_kvarh": {
+			"name": "wind.xbgtest.reactive_energy_import_kvarh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "reactive_energy_import_kvarh"]
+		},
+		"wind.xbgtest.reactive_energy_import_counter_kvarh": {
+			"name": "wind.xbgtest.reactive_energy_import_counter_kvarh",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "reactive_energy_import_counter_kvarh"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_a_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_a_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_a_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_b_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_b_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_b_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_c_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_c_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_c_deg"]
+		},
+		"wind.xbgtest.yaw_bearing_angle_deg": {
+			"name": "wind.xbgtest.yaw_bearing_angle_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "yaw_bearing_angle_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_a_max_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_a_max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_a_max_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_a_min_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_a_min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_a_min_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_a_stddev_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_a_stddev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_a_stddev_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_b_max_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_b_max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_b_max_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_b_min_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_b_min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_b_min_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_b_stddev_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_b_stddev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_b_stddev_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_c_max_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_c_max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_c_max_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_c_min_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_c_min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_c_min_deg"]
+		},
+		"wind.xbgtest.blade_angle_pitch_position_c_stddev_deg": {
+			"name": "wind.xbgtest.blade_angle_pitch_position_c_stddev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "blade_angle_pitch_position_c_stddev_deg"]
+		},
+		"wind.xbgtest.yaw_bearing_angle_max_deg": {
+			"name": "wind.xbgtest.yaw_bearing_angle_max_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "yaw_bearing_angle_max_deg"]
+		},
+		"wind.xbgtest.yaw_bearing_angle_min_deg": {
+			"name": "wind.xbgtest.yaw_bearing_angle_min_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "yaw_bearing_angle_min_deg"]
+		},
+		"wind.xbgtest.yaw_bearing_angle_stddev_deg": {
+			"name": "wind.xbgtest.yaw_bearing_angle_stddev_deg",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "yaw_bearing_angle_stddev_deg"]
+		},
+		"wind.xbgtest.gear_oil_inlet_pressure_bar": {
+			"name": "wind.xbgtest.gear_oil_inlet_pressure_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_inlet_pressure_bar"]
+		},
+		"wind.xbgtest.gear_oil_pump_pressure_bar": {
+			"name": "wind.xbgtest.gear_oil_pump_pressure_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_pump_pressure_bar"]
+		},
+		"wind.xbgtest.gear_oil_inlet_pressure_max_bar": {
+			"name": "wind.xbgtest.gear_oil_inlet_pressure_max_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_inlet_pressure_max_bar"]
+		},
+		"wind.xbgtest.gear_oil_inlet_pressure_min_bar": {
+			"name": "wind.xbgtest.gear_oil_inlet_pressure_min_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_inlet_pressure_min_bar"]
+		},
+		"wind.xbgtest.gear_oil_inlet_pressure_stddev_bar": {
+			"name": "wind.xbgtest.gear_oil_inlet_pressure_stddev_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_inlet_pressure_stddev_bar"]
+		},
+		"wind.xbgtest.gear_oil_pump_pressure_max_bar": {
+			"name": "wind.xbgtest.gear_oil_pump_pressure_max_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_pump_pressure_max_bar"]
+		},
+		"wind.xbgtest.gear_oil_pump_pressure_min_bar": {
+			"name": "wind.xbgtest.gear_oil_pump_pressure_min_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_pump_pressure_min_bar"]
+		},
+		"wind.xbgtest.gear_oil_pump_pressure_stddev_bar": {
+			"name": "wind.xbgtest.gear_oil_pump_pressure_stddev_bar",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "gear_oil_pump_pressure_stddev_bar"]
+		},
+		"wind.xbgtest.grid_frequency_hz": {
+			"name": "wind.xbgtest.grid_frequency_hz",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_frequency_hz"]
+		},
+		"wind.xbgtest.grid_frequency_max_hz": {
+			"name": "wind.xbgtest.grid_frequency_max_hz",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_frequency_max_hz"]
+		},
+		"wind.xbgtest.grid_frequency_min_hz": {
+			"name": "wind.xbgtest.grid_frequency_min_hz",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_frequency_min_hz"]
+		},
+		"wind.xbgtest.grid_frequency_stddev_hz": {
+			"name": "wind.xbgtest.grid_frequency_stddev_hz",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "grid_frequency_stddev_hz"]
+		},
+		"wind.xbgtest.equivalent_full_load_hours_s": {
+			"name": "wind.xbgtest.equivalent_full_load_hours_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "equivalent_full_load_hours_s"]
+		},
+		"wind.xbgtest.equivalent_full_load_hours_counter_s": {
+			"name": "wind.xbgtest.equivalent_full_load_hours_counter_s",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "equivalent_full_load_hours_counter_s"]
+		},
+		"wind.xbgtest.production_factor": {
+			"name": "wind.xbgtest.production_factor",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "production_factor"]
+		},
+		"wind.xbgtest.performance_index": {
+			"name": "wind.xbgtest.performance_index",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "performance_index"]
+		},
+		"wind.xbgtest.apparent_power_kva": {
+			"name": "wind.xbgtest.apparent_power_kva",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "apparent_power_kva"]
+		},
+		"wind.xbgtest.apparent_power_max_kva": {
+			"name": "wind.xbgtest.apparent_power_max_kva",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "apparent_power_max_kva"]
+		},
+		"wind.xbgtest.apparent_power_min_kva": {
+			"name": "wind.xbgtest.apparent_power_min_kva",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "apparent_power_min_kva"]
+		},
+		"wind.xbgtest.apparent_power_stddev_kva": {
+			"name": "wind.xbgtest.apparent_power_stddev_kva",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "apparent_power_stddev_kva"]
+		},
+		"wind.xbgtest.cable_windings_calibration_point": {
+			"name": "wind.xbgtest.cable_windings_calibration_point",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "cable_windings_calibration_point"]
+		},
+		"wind.xbgtest.metal_particle_count": {
+			"name": "wind.xbgtest.metal_particle_count",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "metal_particle_count"]
+		},
+		"wind.xbgtest.metal_particle_count_counter": {
+			"name": "wind.xbgtest.metal_particle_count_counter",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "metal_particle_count_counter"]
+		},
+		"wind.xbgtest.cable_windings_calibration_point_max": {
+			"name": "wind.xbgtest.cable_windings_calibration_point_max",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "cable_windings_calibration_point_max"]
+		},
+		"wind.xbgtest.cable_windings_calibration_point_min": {
+			"name": "wind.xbgtest.cable_windings_calibration_point_min",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "cable_windings_calibration_point_min"]
+		},
+		"wind.xbgtest.cable_windings_calibration_point_stddev": {
+			"name": "wind.xbgtest.cable_windings_calibration_point_stddev",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "cable_windings_calibration_point_stddev"]
+		},
+		"wind.xbgtest.drive_train_acceleration_mm_ss": {
+			"name": "wind.xbgtest.drive_train_acceleration_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "drive_train_acceleration_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_x_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_x_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_x_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_y_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_y_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_y_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_x_min_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_x_min_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_x_min_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_x_max_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_x_max_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_x_max_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_y_min_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_y_min_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_y_min_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_y_max_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_y_max_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_y_max_mm_ss"]
+		},
+		"wind.xbgtest.drive_train_acceleration_max_mm_ss": {
+			"name": "wind.xbgtest.drive_train_acceleration_max_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "drive_train_acceleration_max_mm_ss"]
+		},
+		"wind.xbgtest.drive_train_acceleration_min_mm_ss": {
+			"name": "wind.xbgtest.drive_train_acceleration_min_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "drive_train_acceleration_min_mm_ss"]
+		},
+		"wind.xbgtest.drive_train_acceleration_stddev_mm_ss": {
+			"name": "wind.xbgtest.drive_train_acceleration_stddev_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "drive_train_acceleration_stddev_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_x_stddev_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_x_stddev_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_x_stddev_mm_ss"]
+		},
+		"wind.xbgtest.tower_acceleration_y_stddev_mm_ss": {
+			"name": "wind.xbgtest.tower_acceleration_y_stddev_mm_ss",
+			"type": "NUMERIC",
+			"category": "UNCATEGORIZED",
+			"path": ["wind", "xbgtest", "tower_acceleration_y_stddev_mm_ss"]
+		}
+	}
+}
