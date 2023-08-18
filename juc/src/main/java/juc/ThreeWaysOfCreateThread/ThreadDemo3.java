@@ -1,10 +1,10 @@
-package juc.demo1;
+package juc.ThreeWaysOfCreateThread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
 /**
- * Created with IntelliJ IDEA.
+ * 实现 Callable 接口，重写 call 方法，这种方式可以通过 FutureTask 获取任务执行的返回值
  *
  * @author: gorilla
  * @date: 2023/8/11 15:07

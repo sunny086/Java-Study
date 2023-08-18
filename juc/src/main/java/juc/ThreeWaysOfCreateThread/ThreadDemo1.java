@@ -1,7 +1,7 @@
-package juc.demo1;
+package juc.ThreeWaysOfCreateThread;
 
 /**
- * Created with IntelliJ IDEA.
+ * 创建一个类继承 Thread 类，并重写 run 方法
  *
  * @author: gorilla
  * @date: 2023/8/11 14:11
