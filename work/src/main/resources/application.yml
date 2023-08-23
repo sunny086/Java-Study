@@ -5,7 +5,7 @@ spring:
     port: 6379
     host: 10.25.10.216
     password: Netvine123#@!
-    database: 0
+    database: 10
     lettuce:
       pool:
         max-idle: 16
