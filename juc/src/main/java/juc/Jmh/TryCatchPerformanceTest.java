@@ -1,4 +1,4 @@
-package juc.jmh;
+package juc.Jmh;
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;
