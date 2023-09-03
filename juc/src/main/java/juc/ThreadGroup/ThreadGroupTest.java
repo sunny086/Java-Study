@@ -31,5 +31,30 @@ public class ThreadGroupTest {
         System.out.println(threadGroup.getParent().getParent());
     }
 
+    @Test
+    public void ThreadGroupTest02() {
+        // 获取当前的线程组
+        ThreadGroup threadGroup = Thread.currentThread().getThreadGroup();
+        // 复制一个线程组到一个线程数组（获取Thread信息）
+        Thread[] threads = new Thread[threadGroup.activeCount()];
+        threadGroup.enumerate(threads);
+        for (Thread thread : threads) {
+            System.out.println(thread);
+        }
+    }
 
+    @Test
+    public void ThreadGroupTest03() {
+        ThreadGroup threadGroup = new ThreadGroup("group1");
+        Thread thread = new Thread(threadGroup, () -> {
+            System.out.println("thread run");
+        });
+        thread.start();
+        // 复制一个线程组到一个线程数组（获取Thread信息）
+        Thread[] threads = new Thread[threadGroup.activeCount()];
+        threadGroup.enumerate(threads);
+        for (Thread t : threads) {
+            System.out.println(thread);
+        }
+    }
 }
