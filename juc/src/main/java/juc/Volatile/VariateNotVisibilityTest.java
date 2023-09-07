@@ -12,11 +12,16 @@ public class VariateNotVisibilityTest {
 
     public static void main(String[] args) throws InterruptedException {
         new Thread(() -> {
-            while (flag) {
+            System.out.println("waiting data...");
+            while (!flag) {
                 // do something
-                System.out.println("flag is true");
+                System.out.println("while");
+                try {
+                    Thread.sleep(2000);
+                } catch (Exception ignored) {
+                }
             }
-            System.out.println("flag is false");
+            System.out.printf("*** success %s%n", flag);
         }).start();
         Thread.sleep(2000);
         new Thread(() -> prepareDate()).start();
