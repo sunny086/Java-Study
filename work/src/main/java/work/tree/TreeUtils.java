@@ -77,6 +77,7 @@ public class TreeUtils {
     private static List<TreeNode> findChildByParentId(List<TreeNode> dataList, String parentId) {
         List<TreeNode> children = new ArrayList<>();
         for (TreeNode node : dataList) {
+            // null需要单独判断 不然报错空指针
             if (node.getParentId() == null && parentId == null) {
                 children.add(node);
                 continue;
@@ -111,5 +112,32 @@ public class TreeUtils {
             parents.addAll(findParentByChild(dataList, parent));
         }
         return parents;
+    }
+
+    private static void buildTreeV2(List<TreeNodeV2> dataList, TreeNodeV2 node) {
+        List<TreeNodeV2> child = findChildByParentIdV2(dataList, node.getId());
+        if (!CollectionUtils.isEmpty(child)) {
+            node.setChildren(child);
+            for (TreeNodeV2 tree : child) {
+                buildTreeV2(dataList, tree);
+            }
+        }
+    }
+
+    private static List<TreeNodeV2> findChildByParentIdV2(List<TreeNodeV2> dataList, Integer parentId) {
+        List<TreeNodeV2> children = new ArrayList<>();
+        for (TreeNodeV2 node : dataList) {
+//            if (node.getParentId() == 0 && parentId == 0) {
+//                children.add(node);
+//                continue;
+//            }
+//            if (node.getParentId() != 0 && node.getParentId() == parentId) {
+//                children.add(node);
+//            }
+            if (node.getParentId() == parentId) {
+                children.add(node);
+            }
+        }
+        return children;
     }
 }
