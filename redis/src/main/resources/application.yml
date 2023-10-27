@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: Java-Study
+  redis:
+    port: 6379
+    host: 10.25.10.216
+    password: Netvine123#@!
+    database: 10
+    lettuce:
+      pool:
+        max-idle: 16
+        max-active: 32
+        min-idle: 8
+  cache:
+    redis:
+      time-to-live: 60000 # 60s
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.25.10.216:3306/gorilla
+    username: root
+    password: Netvine123#@!
+server:
+  port: 9004
+  address: 0.0.0.0

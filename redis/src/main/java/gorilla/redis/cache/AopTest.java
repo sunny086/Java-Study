@@ -1,0 +1,26 @@
+package gorilla.redis.cache;
+
+import java.lang.annotation.*;
+
+/**
+ * 自定义注解类Cache
+ * @author BigStar
+ */
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+public @interface AopTest {
+
+    /**
+     * 过期时间，默认60s
+     * @return
+     */
+    long expire() default 2 * 60 * 1000;
+
+    /**
+     * 缓存标识name
+     * @return
+     */
+    String name() default "";
+
+}
