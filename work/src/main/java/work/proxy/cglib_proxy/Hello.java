@@ -1,8 +1,9 @@
-package work.jdk_proxy;
+package work.proxy.cglib_proxy;
 
-public class HelloImpl implements Hello {
-    @Override
+public class Hello {
+
     public void sayHello() {
         System.out.println("Hello, World!");
     }
+
 }

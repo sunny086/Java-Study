@@ -1,4 +1,4 @@
-package work.jdk_proxy;
+package work.proxy.jdk_proxy;
 
 public interface Hello {
 
